@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Start your real estate franchise in India with Franchise Times. Explore profitable franchise opportunities and grow your income with expert guidance.">
+<meta name="keywords" content="Real Estate Franchise India, Franchise Opportunities, Property Business India">
+<meta name="author" content="Franchise Times">
+<meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="image.png"
+        sizes="32x32" />
+    <title>Real Estate Franchise India | Franchise TIMES</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f8fb;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 40px;
+            padding: 5px 80px;
+            font-size: 0.95rem;
+            font-weight: 400;
+            background-color: #fff;
+            color: #444;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .helpline {
+            display: flex;
+            color: #2b4b80;
+            font-weight: 500;
+            align-items: center;
+        }
+
+        .phone {
+            border: 0;
+            color: #444;
+            font-size: 100%;
+            font-weight: 400;
+            padding: 0px 5px;
+        }
+
+        .nav-container {
+            margin: 0 auto;
+            padding: 0 80px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 100px;
+            position: relative;
+            max-width: 100%;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-container img {
+            max-height: 40px;
+        }
+
+        .brand-name {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #333;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-item>a {
+            color: #4b5563;
+            font-size: 0.95rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: color 0.2s ease;
+            padding: 10px 0;
+        }
+
+        .nav-item>a:hover {
+            color: #1a88c9;
+        }
+
+        .chevron {
+            width: 12px;
+            height: 12px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            transition: transform 0.3s ease;
+            margin-top: 2px;
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #ffffff;
+            min-width: 220px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            list-style: none;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            padding: 10px 0;
+            z-index: 10;
+            border: 1px solid #f0f0f0;
+        }
+
+        .nav-item.dropdown:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .nav-item.dropdown:hover .chevron {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-menu li a {
+            display: block;
+            padding: 10px 20px;
+            color: #4b5563;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        .dropdown-menu li a:hover {
+            background-color: #f4f8fb;
+            color: #1a88c9;
+        }
+
+        .btn-explore {
+            background-color: #0084c6;
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+            letter-spacing: 0.5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-explore:hover {
+            background-color: #006da3;
+        }
+
+        .mobile-toggle {
+            display: none;
+            background-color: #0084c6;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: background-color 0.2s ease;
+        }
+
+        .mobile-toggle:hover {
+            background-color: #006da3;
+        }
+
+        .mobile-toggle svg {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .icon-close {
+            display: none;
+        }
+
+        .mobile-toggle.active .icon-menu {
+            display: none;
+        }
+
+        .mobile-toggle.active .icon-close {
+            display: block;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #050b18 0%, #0a1b44 100%);
+            color: #ffffff;
+            text-align: center;
+            padding: 90px 20px;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .hero h2 {
+            max-width: 900px;
+            font-size: 2.2rem;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .btn-apply-hero {
+            background-color: #facc15;
+            color: #1e3a8a;
+            padding: 15px 35px;
+            border-radius: 4px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-apply-hero:hover {
+            background-color: #eab308;
+            transform: translateY(-2px);
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 8px;
+            padding: 40px;
+            position: relative;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 24px;
+            color: #64748b;
+            cursor: pointer;
+            transition: color 0.2s ease;
+            line-height: 1;
+        }
+
+        .close-modal:hover {
+            color: #e11d48;
+        }
+
+        .modal-content h3 {
+            color: #0f172a;
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .modal-content p {
+            color: #64748b;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+        }
+
+        .franchise-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .franchise-form input,
+        .franchise-form select,
+        .franchise-form textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            color: #334155;
+            transition: border-color 0.2s ease;
+            font-family: inherit;
+        }
+
+        .franchise-form input:focus,
+        .franchise-form select:focus,
+        .franchise-form textarea:focus {
+            outline: none;
+            border-color: #0084c6;
+        }
+
+        .franchise-form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .btn-submit {
+            background-color: #0084c6;
+            color: #ffffff;
+            padding: 14px;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            margin-top: 10px;
+        }
+
+        .btn-submit:hover {
+            background-color: #006da3;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2.2fr 1fr;
+            gap: 50px;
+        }
+
+        .article-content h2 {
+            color: #1a88c9;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            line-height: 1.3;
+            font-weight: 500;
+        }
+
+        .article-content h3 {
+            color: #1a88c9;
+            font-size: 1.6rem;
+            margin-top: 45px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .article-content h3:not(:first-of-type)::before {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 1px;
+            background-color: #718096;
+            margin: 50px auto;
+        }
+
+        .article-content p {
+            color: #374151;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .article-content strong {
+            color: #1a88c9;
+            font-weight: 600;
+        }
+
+        .article-content ul {
+            margin-left: 20px;
+            margin-bottom: 30px;
+            color: #374151;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            list-style-type: disc;
+        }
+
+        .article-content ul li {
+            margin-bottom: 12px;
+            padding-left: 5px;
+        }
+
+        .sidebar {
+            padding-top: 10px;
+        }
+
+        .sidebar h3 {
+            color: #1a88c9;
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul li a {
+            color: #6b7280;
+            font-size: 1rem;
+            line-height: 1.6;
+            display: block;
+            transition: color 0.2s ease;
+        }
+
+        .sidebar ul li a:hover {
+            color: #1a88c9;
+        }
+
+        .footer-top {
+            background-color: #f2f5f7;
+            padding: 60px 80px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            color: #4a5568;
+            margin-top: 40px;
+        }
+
+        .brand-logo {
+            width: 50px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .brand-title {
+            color: #006cb7;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .brand-description {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .footer-col h3 {
+            color: #006cb7;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: #64748b;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: #006cb7;
+        }
+
+        .contact-info p {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        .contact-info strong {
+            font-weight: 600;
+            color: #111;
+        }
+
+        .footer-bottom {
+            background-color: #f2f5f7;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .copyright-text {
+            border: 0;
+            font-size: 100%;
+            color: #64748b;
+        }
+
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            background-color: #4a5568;
+            color: #ffffff;
+            border: none;
+            width: 45px;
+            height: 45px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 998;
+        }
+
+        .scroll-top-btn:hover {
+            background-color: #2d3748;
+            transform: translateY(-3px);
+        }
+
+        .scroll-top-btn svg {
+            width: 26px;
+            height: 26px;
+            fill: white;
+        }
+
+        .sticky-apply-btn {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+            background-color: #facc15;
+            color: #1e3a8a;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 998;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .sticky-apply-btn:hover {
+            background-color: #eab308;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .scroll-top-btn.show,
+        .sticky-apply-btn.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        @media (max-width: 992px) {
+            .footer-top {
+                grid-template-columns: 1fr 1fr;
+                padding: 40px 5%;
+            }
+
+            .nav-container {
+                padding: 0 5%;
+            }
+
+            .top-bar {
+                padding: 10px 5%;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 90px;
+                left: 0;
+                width: 100%;
+                background: #fff;
+                padding: 20px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                z-index: 100;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-list {
+                flex-direction: column;
+                width: 100%;
+                gap: 15px;
+            }
+
+            .dropdown-menu {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                display: none;
+                padding-left: 20px;
+                border: none;
+                border-left: 2px solid #eee;
+                margin-top: 10px;
+            }
+
+            .nav-item.dropdown:hover .dropdown-menu {
+                display: block;
+            }
+
+            .mobile-toggle {
+                display: flex;
+            }
+
+            .top-bar {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .footer-top {
+                grid-template-columns: 1fr;
+            }
+
+            .scroll-top-btn {
+                right: 20px;
+                bottom: 20px;
+            }
+
+            .article-content h2,
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+
+            .sticky-apply-btn {
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 20px;
+                width: 80%;
+                justify-content: center;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            }
+
+            .sticky-apply-btn:hover {
+                transform: translateX(-50%) translateY(-3px);
+            }
+
+            .sticky-apply-btn.show {
+                transform: translateX(-50%);
+            }
+
+            .sticky-apply-btn.show:hover {
+                transform: translateX(-50%) translateY(-3px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div>Email: contact@franchisetimes.co.in</div>
+        <div class="helpline">FRANCHISETIMES HELPLINE: <div class="phone"> 08041212417 | +91 9900039898</div>
+        </div>
+    </div>
+
+    <div class="nav-container">
+        <a href="#" class="logo-container">
+            <img src="image.png" alt="Franchise Times Logo">
+            <span class="brand-name">FRANCHISE TIMES</span>
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle">
+            <svg class="icon-menu" viewBox="0 0 24 24">
+                <path d="M3 12h18M3 6h18M3 18h18"></path>
+            </svg>
+            <svg class="icon-close" viewBox="0 0 24 24">
+                <path d="M18 6L6 18M6 6l12 12"></path>
+            </svg>
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">About us</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        About Franchising
+                        <svg class="chevron" viewBox="0 0 24 24">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">What is Franchising?</a></li>
+                        <li><a href="#">Franchise Models</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services
+                        <svg class="chevron" viewBox="0 0 24 24">
+                            <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Franchise Opportunities</a></li>
+                        <li><a href="#">Business Consulting</a></li>
+                        <li><a href="#">Digital Consulting</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn-explore trigger-modal">EXPLORE OPPORTUNITIES</button>
+        </nav>
+    </div>
+
+    <header class="hero">
+        <h2>Building Real Wealth: How a Real Estate Franchise in India Can Grow Your Income</h2>
+        <button class="btn-apply-hero trigger-modal">Apply for Franchise</button>
+    </header>
+
+    <main class="container">
+        <article class="article-content">
+            <h2><strong>Building Real Wealth: How a Real Estate Franchise in India Can Grow Your Income</strong></h2>
+
+            <p>India’s real estate market is growing very fast. From tall buildings in big cities to large housing
+                projects in smaller towns, new opportunities are coming up every day. If you want to start your own
+                business in this field, choosing a real estate franchise can be a smart way to earn and build long-term
+                wealth. But why should you go for a franchise? Why is this the right time? And how do you choose the
+                best option? Let’s understand this in a simple way.</p>
+
+            <h3><strong>1. Growing Real Estate Market in India</strong></h3>
+            <p>In the last 20 years, India has seen major growth in housing and infrastructure. Cities are expanding
+                quickly, people’s incomes are increasing, and the demand for homes and commercial spaces is rising. The
+                real estate market in India is expected to reach USD 1 trillion by 2030 and contribute about 13% to the
+                country’s GDP by 2025.</p>
+            <p>Because of this growth, many businesses are entering the real estate sector. However, competition is very
+                high. This is where a real estate franchise becomes helpful. Instead of starting from zero, you get a
+                ready business model, an existing customer base, and proven marketing methods.</p>
+
+            <h3><strong>2. Why Choose a Real Estate Franchise Instead of Starting Alone?</strong></h3>
+            <p>Starting a business on your own can be difficult. You need to build a brand, find customers, hire staff,
+                and earn people’s trust—all of which take time and money. But with a real estate franchise in India,
+                many of these challenges are already handled for you.</p>
+            <ul>
+                <li><strong>Recognized Brand Name:</strong> People feel more confident dealing with a known brand.</li>
+                <li><strong>Ready Business System:</strong> You don’t have to start from zero—the process is already
+                    set.</li>
+                <li><strong>Marketing and Technical Support:</strong> Help is provided for advertising, customer
+                    management, and other tools.</li>
+                <li><strong>Training Support:</strong> Regular training is given to help you improve and stay updated.
+                </li>
+            </ul>
+
+            <h3><strong>3. Types of Real Estate Franchises in India: Which One Should You Choose?</strong></h3>
+            <p>Before you start, it’s important to know that not all real estate franchises are the same. Each type
+                focuses on a different part of the market.</p>
+            <ul>
+                <li><strong>Residential Real Estate Franchises:</strong> These deal with homes like flats, villas, and
+                    plots. If there is high demand for housing in your area, this is a good choice.</li>
+                <li><strong>Commercial Real Estate Franchises:</strong> This type focuses on office spaces, shops, and
+                    warehouses. You will work with businesses and handle bigger deals.</li>
+                <li><strong>Luxury Property Franchises:</strong> In cities like Mumbai, Delhi, or Bangalore, luxury
+                    properties are in high demand. This segment can give high profits.</li>
+            </ul>
+
+            <h3><strong>4. How to Choose the Right Real Estate Franchise in India</strong></h3>
+            <p>After deciding to take a franchise, the next step is selecting the right brand. There are many options
+                available, but not all of them are reliable. So, it’s important to choose carefully.</p>
+            <ul>
+                <li><strong>Check the Brand Reputation:</strong> Look at online reviews, customer feedback, and their
+                    presence on property websites. Also, find out how long they have been in the market.</li>
+                <li><strong>Understand Costs and Returns:</strong> Most franchises require an initial investment of
+                    around ₹2 to ₹10 lakhs. Ask about extra charges and what kind of returns you can expect.</li>
+            </ul>
+
+            <h3><strong>5. Simple Tips to Grow Your Real Estate Franchise in India</strong></h3>
+            <p>After getting your franchise, the real work starts. Many people fail because they treat it as a part-time
+                job. If you want to succeed and earn well, you need to give it your full attention.</p>
+            <ul>
+                <li><strong>Use Online Marketing:</strong> Word-of-mouth helps, but having an online presence is very
+                    important. Use social media, Google ads, and property websites to find customers.</li>
+                <li><strong>Build Local Connections:</strong> Meet builders, attend property events, and connect with
+                    loan providers. Strong relationships help you grow faster.</li>
+            </ul>
+
+            <h3><strong>Final Thoughts: Is a Real Estate Franchise in India Worth It?</strong></h3>
+            <p>The real estate sector in India offers great earning potential. However, starting without the right plan
+                can be risky. That’s why choosing a real estate franchise is a safer and more practical way to enter
+                this field.</p>
+            <p>But success does not happen instantly. It requires hard work, good market understanding, and strong
+                relationships. If you stay committed, a franchise can help you build steady income and long-term growth.
+            </p>
+        </article>
+
+        <aside class="sidebar">
+            <h3>Latest Posts</h3>
+            <ul>
+                <li><a href="#">Top Franchise Brands in India Driving Profitable Business Growth</a></li>
+                <li><a href="#">Finding the Best and Cheap Franchise in India for Profitable Growth</a></li>
+                <li><a href="#">Beauty Products Franchise India: A Profitable Gateway to Growth</a></li>
+                <li><a href="#">Kolkata Bazar Franchise: A Gateway to Profitable Business in the City of Joy</a></li>
+                <li><a href="#">Expanding Growth with Banking Franchise Opportunities in India</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <img src="image.png" alt="Franchise Times Logo" class="brand-logo">
+                <h2 class="brand-title">FRANCHISE TIMES</h2>
+                <p class="brand-description">
+                    Franchise Times is a leading platform for franchise development, lead generation, and brand
+                    expansion. We connect aspiring entrepreneurs with top franchise opportunities while helping
+                    businesses scale through strategic consulting and digital marketing.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Franchise Opportunities</a></li>
+                    <li><a href="#">Business Consulting</a></li>
+                    <li><a href="#">Digital Consulting</a></li>
+                    <li><a href="#">Awards and Events</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-info">
+                <h3>Contact Us</h3>
+                <p><strong>Address :</strong> #5c-409, 5th Cross, 1st Floor,<br>
+                    Kammanahalli Main Road, Bengaluru-560043</p>
+                <p><strong>Email :</strong> contact@franchisetimes.co.in</p>
+                <p><strong>Phone :</strong> +91 9900039898</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright-text">Copyright © 2026 FRANCHISE TIMES</p>
+        </div>
+    </footer>
+
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+        </svg>
+    </button>
+
+    <button class="sticky-apply-btn trigger-modal" id="stickyApplyBtn">
+        Apply Now
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+    </button>
+
+    <div class="modal-overlay" id="franchiseModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h3>Apply for a Franchise</h3>
+            <p>Fill out the form below and our team will get in touch with you shortly.</p>
+            <form class="franchise-form" id="applicationForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+
+                <select required>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="franchise_opportunities">Franchise Opportunities</option>
+                    <option value="business_consulting">Business Consulting</option>
+                    <option value="digital_consulting">Digital Consulting</option>
+                    <option value="awards_events">Awards & Events</option>
+                </select>
+
+                <textarea placeholder="Message" required></textarea>
+
+                <button type="submit" class="btn-submit">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const scrollTopBtn = document.getElementById("scrollTopBtn");
+            const stickyApplyBtn = document.getElementById("stickyApplyBtn");
+            const mobileToggle = document.getElementById("mobileToggle");
+            const navMenu = document.getElementById("navMenu");
+
+            const modal = document.getElementById("franchiseModal");
+            const btnsOpenModal = document.querySelectorAll(".trigger-modal");
+            const btnCloseModal = document.getElementById("closeModal");
+            const form = document.getElementById("applicationForm");
+
+            window.addEventListener("scroll", () => {
+                const showButtons = window.scrollY > 300;
+                scrollTopBtn.classList.toggle("show", showButtons);
+                stickyApplyBtn.classList.toggle("show", showButtons);
+            });
+
+            scrollTopBtn.addEventListener("click", () => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+
+            if (mobileToggle && navMenu) {
+                mobileToggle.addEventListener("click", () => {
+                    const isActive = navMenu.classList.toggle("active");
+                    mobileToggle.classList.toggle("active");
+                    mobileToggle.setAttribute("aria-expanded", isActive);
+                });
+            }
+
+            document.querySelectorAll(".dropdown-toggle").forEach(toggle => {
+                toggle.addEventListener("click", function (e) {
+                    if (window.innerWidth <= 900) {
+                        e.preventDefault();
+                        const dropdown = this.nextElementSibling;
+                        dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+                    }
+                });
+            });
+
+            btnsOpenModal.forEach(btn => {
+                btn.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    modal.classList.add("active");
+                    document.body.style.overflow = "hidden";
+                });
+            });
+
+            function closeModal() {
+                modal.classList.remove("active");
+                document.body.style.overflow = "";
+            }
+
+            btnCloseModal.addEventListener("click", closeModal);
+
+            window.addEventListener("click", function (event) {
+                if (event.target === modal) closeModal();
+            });
+
+            window.addEventListener("keydown", function (e) {
+                if (e.key === "Escape") closeModal();
+            });
+
+            if (form) {
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    alert("Thank you! Your application has been submitted.");
+                    closeModal();
+                    form.reset();
+                });
+            }
+
+        });
+    </script>
+</body>
+
+</html>
